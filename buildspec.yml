@@ -4,7 +4,7 @@ phases:
   install:
     commands: 
       - echo "executing install phase"
-	  - echo "executing second command of install phase"
+      - echo "executing second command of install phase"
 
     finally:
 	  - echo "executing install finally"
