@@ -3,26 +3,26 @@ version: 0.2
 phases:
   install:
     commands: 
-      - echo "executing install phase"
-      - echo "executing second command of install phase"
+      - echo executing install phase
+      - echo executing second command of install phase
     finally:
-	  - echo "executing install finally"
+	  - echo executing install finally
    
   pre_build:
     commands:
-      - echo "executing pre build phase"
+      - echo executing pre build phase
     finally:
-      - echo "executing prebuild finally"
+      - echo executing prebuild finally
 
 
   build:
     commands:
-      - echo "executing build phase"
+      - echo executing build phase
     finally:
-      - echo "executing build finally"
+      - echo executing build finally
 
   post_build:
     commands:
-      - echo "executing post build phase"
+      - echo executing post build phase
     finally:
-      - echo "executing post build finally"
+      - echo executing post build finally
